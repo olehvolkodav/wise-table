@@ -3,11 +3,20 @@ import { providers } from './data/providers';
 import { currencies } from './data/currencies';
 import { tableData } from './data/table';
 
+import List from './pages/List';
+
+import AppContext from './context/AppContext';
+import './assets/styles/index.css';
+
 const App: React.FC = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Simple React Typescript Tailwind Sample
-    </h1>
+    <AppContext.Provider value={{
+      providers,
+      currencies,
+      tableData
+    }}>
+      <List />
+    </AppContext.Provider>
   );
 };
 
