@@ -1,3 +1,10 @@
+# See https://help.github.com/wise-table/ for more about ignoring files.
+
+# dependencies
 /node_modules
+
+# test
+/coverage
+
+# production
 /build
-/package-lock.json

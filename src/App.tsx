@@ -3,11 +3,11 @@ import { providers } from './data/providers';
 import { currencies } from './data/currencies';
 import { tableData } from './data/table';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div>
-      {/* Start the task here */}
-    </div>
+    <h1 className="text-3xl font-bold underline text-red-600">
+      Simple React Typescript Tailwind Sample
+    </h1>
   );
 };
 
