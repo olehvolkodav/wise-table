@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Header from './Header';
-import Content from './Content';
+import Header from "./Header";
+import Content from "./Content";
 
 const Table: React.FC = () => {
   return (
     <div className="mx-auto max-w-7xl min-w-5xl">
-      <table className="table-fixed text-primary w-full border-collapse border-spacing-0">
+      <table className="table-auto text-primary w-full border-collapse border-spacing-0">
         <Header />
         <Content />
       </table>
@@ -14,8 +14,7 @@ const Table: React.FC = () => {
         The provider logo and the button link to the CTA URL
       </p>
     </div>
-
   );
-}
+};
 
 export default Table;

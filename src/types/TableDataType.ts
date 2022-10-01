@@ -1,12 +1,12 @@
 type cheapProviderType = {
   id: number;
   payout: number;
-}
+};
 
 type expensiveProviderType = {
   id: number;
   payout: number;
-}
+};
 
 export type TableDataType = {
   amount: number;
@@ -16,4 +16,4 @@ export type TableDataType = {
   providersCount: number;
   source: string;
   target: string;
-}
+};
