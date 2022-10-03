@@ -1,4 +1,4 @@
-export const getFormattedNumber = (val) => {
+export const getFormattedNumber = (val: number) => {
   // remove sign if negative
   let sign = 1;
   if (val < 0) {
